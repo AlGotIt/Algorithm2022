@@ -33,6 +33,7 @@ def solution(queue1, queue2):
             pointer1 += 1
             answer += 1
 
+        # 포인터가 총 길이를 넘어설 경우 다시 처음으로 시작
         if pointer1 == len(total_array):
             pointer1 = 0
         if pointer2 == len(total_array):
