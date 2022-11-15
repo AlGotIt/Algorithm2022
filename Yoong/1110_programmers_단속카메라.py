@@ -5,8 +5,8 @@ def solution(routes):
 
     k = 0
     cnt = 1                                                 # 처음 나간 차량의 나간 지점에 하나 설치 먼저함.
-    for i in range(1,len(routes)):                               # 두번째 차량부터 마지막 번째 차량까지 반복문 실행
-        if routes[i][0] > routes[k][1]:                               # 다음 차량이 들어온 지점과 카메라가 설치되어 있는 지점을 비교
+    for i in range(1,len(routes)):                          # 두번째 차량부터 마지막 번째 차량까지 반복문 실행
+        if routes[i][0] > routes[k][1]:                     # 다음 차량이 들어온 지점과 카메라가 설치되어 있는 지점을 비교
             cnt += 1                                        # 카메라가 설치된 지점보다 다음 차량의 들어온 시간이 늦으면 카메라 설치
             k = i                                           # 카메라 지점을 다음 차량의 나간 지점으로 업데이트함.
     #return routes, cnt
