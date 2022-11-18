@@ -1,5 +1,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/92343
 # 프로그래머스 Lv3. 양과 늑대
+
 import sys
 
 def solution(s, w):  #sheep, wolf
