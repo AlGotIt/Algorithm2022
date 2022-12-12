@@ -4,8 +4,8 @@ from collections import Counter
 collections.Counter(a) : a에서 요소들의 개수를 세어, 딕셔너리 형태로 반환합니다.  {문자 : 개수} 형태
 collections.Counter(a).most_common() : a의 요소를 세어, 개수가 많은 순으로 정렬된 배열을 리턴
 '''
-tangerine = [1, 3, 2, 5, 4, 5, 2, 3] # 귤의 크기를 담은 배열
-k = 4 # 한 상자에 담으려는 귤의 개수
+tangerine = [1, 3, 2, 5, 4, 5, 2, 3]                                                # 귤의 크기를 담은 배열
+k = 4                                                                               # 한 상자에 담으려는 귤의 개수
 '''
 귤 k개를 고를 때 크기가 서로 다른 종류의 수의 최솟값을 return 해야함
 즉 같은 종류의 귤의 수가 많은 것을 골라서 k를 채워함.
