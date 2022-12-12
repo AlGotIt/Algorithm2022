@@ -13,7 +13,7 @@ k = 4                                                                           
 6 = 2 2 2 (O)
 '''
 
-#counter = sorted(Counter(tangerine).items(),reverse = True, key = lambda x : x[1]) # Counter 사용해서 귤 크기별 귤의 개수 저장 후 귤의 개수 기준으로 내림차순 정렬
+# counter = sorted(Counter(tangerine).items(),reverse = True, key = lambda x : x[1]) # Counter 사용해서 귤 크기별 귤의 개수 저장 후 귤의 개수 기준으로 내림차순 정렬
 counter = Counter(tangerine).most_common()                                          # 개수가 많은 순으로 정렬된 배열을 리턴
 # print(counter) 
 ans = 0                                                                             # 크기가 서로 다른 귤의 종류의 수 저장하는 변수
