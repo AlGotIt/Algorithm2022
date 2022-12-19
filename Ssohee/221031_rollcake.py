@@ -2,8 +2,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/132265
 
 from collections import Counter
-import sys
-
 def solution(topping):
     result = 0
     topping_dic = Counter(topping)  #토핑 종류별로 몇개씩 있는지 먼저 센다
@@ -21,8 +19,7 @@ def solution(topping):
             # 즉, li의 개수가 더 많을 때 탈출!
     return result
 
-topping = sys.stdin.readlines()
-#topping = list(map(int, input().split()))
+topping = list(map(int, input().split()))
 solution(topping)
 
 # 타임에러코드
