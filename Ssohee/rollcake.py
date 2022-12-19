@@ -1,4 +1,4 @@
-# 프로그래머스 롤케이크 자르기
+# 프로그래머스 LV2. 롤케이크 자르기
 # https://school.programmers.co.kr/learn/courses/30/lessons/132265
 
 from collections import Counter
@@ -25,7 +25,8 @@ topping = sys.stdin.readlines()
 #topping = list(map(int, input().split()))
 solution(topping)
 
-# 타임에러
+# 타임에러코드
+
 # def solution(topping):
 #     result = 0
 #     for i in range(1, len(topping)):
