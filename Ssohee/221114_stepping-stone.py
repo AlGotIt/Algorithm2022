@@ -1,8 +1,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/64062
 # 프로그래머스 Lv3. 징검다리 건너기
 
-import sys
-
 def solution(stones, k):
     answer = 0  # 리턴
     n = len(stones)
@@ -20,6 +18,5 @@ def solution(stones, k):
                 if zero == k:   # 최대로 지나갈 수 있는 K
                     return answer
 
-stones = sys.stdin.readlines()
-k = input()
+stone, k = [], 0
 print(solution)
