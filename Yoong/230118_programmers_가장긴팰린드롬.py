@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/12904
 '''
  0부터 N - 1 까지 의 문자열 이 가장 긴 문자열이다.
  즉, 0부터 N-1, N-2, N-3, ... , 0 까지,
