@@ -16,3 +16,6 @@ def solution(s):
         even = is_palindrome(s, i-1, i) #ABBA
         answer = max(answer, max(odd, even))
     return answer
+
+s = 'abcdcba'
+print(solution(s))
